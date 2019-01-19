@@ -19,4 +19,5 @@ public class VoidFeature {
     while(true) {
       System.out.println("Nothing to do here");
     }
+  }
 }
