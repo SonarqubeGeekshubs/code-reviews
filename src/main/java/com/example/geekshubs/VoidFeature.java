@@ -14,4 +14,9 @@ public class VoidFeature {
     System.out.println("Nothing to do here");
     System.out.println("Nothing to do here");
   }
+  
+  public void infiniteLoop() {
+    while(true) {
+      System.out.println("Nothing to do here");
+    }
 }
