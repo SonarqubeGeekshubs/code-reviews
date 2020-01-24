@@ -13,4 +13,8 @@ public class CodeReviewsApplicationTests {
 	public void contextLoads() {
 	}
 
+	@Test
+	public void voidTest() {
+	}
+
 }
