@@ -18,6 +18,15 @@ public class DuplicatedVoidFeature {
     while (true) {
       System.out.println("Nothing to do here");
     }
+    
+    boolean alwaysTrue = true;
+
+    if (alwaysTrue) {
+      System.out.println("This method is always exectued");
+    } else {
+      System.out.println("Not reachable");
+    }
+
   }
 
 }
