@@ -30,7 +30,7 @@ pipeline {
     stage('SonarQube analysis') {
       steps {
         withSonarQubeEnv('Sonarqube') {
-          sh 'mvn sonar:sonar'
+          sh 'mvn sonar:sonar -Dsonar.projectKey=com.example.geekshubs:code-reviews-feature-analysis-branch'
         }
       }
     }
