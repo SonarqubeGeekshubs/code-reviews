@@ -14,10 +14,7 @@ public class VoidFeature {
 
 
   public void infinteLoop() {
-
-    while (true) {
-      System.out.println("Nothing to do here");
-    }
+    throw new UnsupportedOperationException();
   }
 
 }
