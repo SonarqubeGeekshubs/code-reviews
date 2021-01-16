@@ -1,5 +1,7 @@
 package com.example.geekshubs;
 
+import java.util.Map;
+
 public class VoidFeature {
 
   public void nothingToDo() {
@@ -10,6 +12,13 @@ public class VoidFeature {
     System.out.println("Nothing to do here");
     System.out.println("Nothing to do here");
     System.out.println("Nothing to do here");
+    System.out.println("Nothing to do here");
+  }
+  
+  public void infiniteLoop() {
+    while(true) {
+      System.out.println("Nothing to do here");
+    }
   }
 
 
