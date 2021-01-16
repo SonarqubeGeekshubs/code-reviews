@@ -14,10 +14,6 @@ public class DuplicatedVoidFeature {
 
 
   public void infinteLoop() {
-
-    while (true) {
-      System.out.println("Nothing to do here");
-    }
     
     boolean alwaysTrue = true;
 
