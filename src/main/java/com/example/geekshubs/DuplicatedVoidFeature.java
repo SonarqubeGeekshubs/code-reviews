@@ -14,10 +14,15 @@ public class DuplicatedVoidFeature {
 
 
   public void infinteLoop() {
+    
+    boolean alwaysTrue = true;
 
-    while (true) {
-      System.out.println("Nothing to do here");
+    if (alwaysTrue) {
+      System.out.println("This method is always exectued");
+    } else {
+      System.out.println("Not reachable");
     }
+
   }
 
 }
