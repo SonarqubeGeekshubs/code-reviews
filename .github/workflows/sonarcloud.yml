@@ -4,6 +4,9 @@ name: Sonarcloud Continuous Analysis
 
 # Controls when the action will run. 
 on:
+  merge_group:
+    types:
+      - checks_requested
   # Triggers the workflow on push or pull request events but only for the master branch
   push:
     branches: main
