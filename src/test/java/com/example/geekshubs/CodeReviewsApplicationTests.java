@@ -1,16 +1,19 @@
 package com.example.geekshubs;
 
-import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.context.junit4.SpringRunner;
+import org.junit.jupiter.api.Test;
+import org.springframework.test.context.junit.jupiter.SpringExtension;
 
-@RunWith(SpringRunner.class)
-@SpringBootTest
+import org.junit.jupiter.api.extension.ExtendWith;
+
+@ExtendWith(SpringExtension.class)
 public class CodeReviewsApplicationTests {
 
 	@Test
 	public void contextLoads() {
+	}
+
+	@Test
+	public void voidTest() {
 	}
 
 }
